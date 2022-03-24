@@ -36,7 +36,7 @@ export const hira2kata = (c: string): string =>
  * hira2kataAll('今日は');
  */
 export const hira2kataAll = (s: string): string =>
-  [...s].map(c => (isHiragana(c) ? hira2kata(c) : c)).join('');
+  [...s].map((c) => (isHiragana(c) ? hira2kata(c) : c)).join("");
 
 /**
  * converts the first character of the argument to a Hiragana (if it is Katakana).
@@ -74,7 +74,7 @@ export const kata2hira = (c: string): string =>
  * hira2kataAll('今日ハ');
  */
 export const kata2hiraAll = (s: string): string =>
-  [...s].map(c => (isKatakana(c) ? kata2hira(c) : c)).join('');
+  [...s].map((c) => (isKatakana(c) ? kata2hira(c) : c)).join("");
 
 /**
  * Code point of 'ぁ', first Hiragana in Unicode.
