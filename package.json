@@ -14,7 +14,7 @@
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "typescript": "^4.6.2",
-    "vitest": "^0.7.10"
+    "typescript": "^4.6.3",
+    "vitest": "^0.9.3"
   }
 }
