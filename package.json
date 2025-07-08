@@ -6,15 +6,13 @@
   "types": "./dist/main.d.ts",
   "scripts": {
     "build": "rm -rf ./dist/ && tsc",
-    "dev": "vitest",
-    "test": "vitest run"
+    "dev": "bun test --watch",
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
-    "typescript": "^4.6.3",
-    "vitest": "^0.9.3"
+    "typescript": "^4.6.3"
   }
 }
