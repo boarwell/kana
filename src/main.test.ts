@@ -1,4 +1,4 @@
-import { test, expect } from "vitest";
+import { test, expect } from "bun:test";
 import { hira2kata, hira2kataAll, kata2hira, kata2hiraAll } from "./main.js";
 
 type Case = {
